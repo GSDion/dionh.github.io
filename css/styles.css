@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    text-align: center;
+    
+}
+
+/*text in "top"class */
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
+/*pictures*/
+/* headshot image*/
+.profile {
+    border-radius: 30%; /*delete*/
+}
+
+/*desktop screen in "top" class. Contains Name*/
+.desktop {
+    width: 50%; 
+   position: relative;
+}
+
+/*mouse in "top" class. Beside desktop screen*/
+.mouse {
+    width: 8%;
+    position:absolute;
+    top: 500px;
+    filter: brightness(65%)
+}
+
+/*computer program image on main page. Under "Languages".*/
+.computerProgram {
+    width: 65%;
+    border-radius: 5px;
+}
+
+/*briefcase Under "Leadership and Experience".*/
+.briefcase {
+    position:relative;
+    width: 30%;
+}
+
+/*computer under "Skills"*/
+.computer {
+    width: 50%;
+}
+
+
+/* 3 sections of the page styled below */
+.top {
+    position: relative;
+    padding: 100px 0 0 0;
+    background-color: rgb(24, 24, 24);
+    
+}
+
+.middle { 
+    position:relative;
+    padding: 100px 0 0 0;
+    background-color: white;
+}
+
+.bottom { 
+    background-color: rgb(24, 24, 24);
+    color: gray;
+    width: 100%;
+    display: inline-block;
+    border-top: 0.1em solid orange;
+    padding: 1em;
+    box-sizing: border-box;
+    vertical-align: top;
+    position: relative;
+}
+
+
+/* headings*/
+h1 {
+    
+    font-family: 'Satisfy', cursive;
+    color: gray;
+    font-size:5em;
+}
+
+h2 {
+    font-family: 'Noto Serif', serif;
+    color:black;
+    font-size:2em;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+}
+
+/*h2 heading of "I'm a student at the University of Georgia."*/
+.topHeading {
+    color:gray;
+}
+
+
+/* paragraphs on contact page: address and number*/
+.contactParagraph {
+    color:gray;
+}
+
+/* contact Form: Name, Email, Message*/
+.contactFormWords {
+    color:orange;
+}
+
+/* copyright on bottom of main page*/
+.bottomCopyright {
+    color:gray;
+}
+
+
+/*two layer columns*/
+.row {
+   width:50%;
+   height: 300px;
+   text-align: center;
+   /* 100 pixels top and bottom*/
+   margin:100px auto;
+}
+
+.column {
+    display:inline-block;
+    text-align: center;
+}
+
+.left {
+    float:left;
+    width: 35%;
+    height: 50px;
+
+}
+
+.right {
+    width: 65%;
+    height: 50px
+}
+
+.heading {
+    height: 50px;
+}
+
+
+/*lists styling */
+ul {
+    list-style: none;
+}
+
+/* horizontal rules*/
+hr {
+    border-top: dashed #c3c3c3 5px;
+    width: 25%;
+    border-bottom: none;
+    margin: 100px auto;
+
+}
+
+
+/*links*/
+/* unvisited link */
+a:link {
+    color: orange;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(197, 130, 5);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: grey;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+
+/*buttons on main page*/
+.button {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+
+
+/*contact card on copyright page*/
+.card {
+    /* Add shadows to create the "card" effect */
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 0 auto;
+  border-radius:5px;
+  
+}
+input, textarea {
+    display: block;
+    /* top right left bottom*/
+    margin: 10px auto 13px auto;
+    
+}
+
+input[type=submit] {
+    border: 2px solid black;
+    background-color: white;
+    color: orange;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer; 
+    margin: auto; 
+  }
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+  }
+
+/* Add some padding inside the card container */
+.container {
+    padding: 5px;
+    background-color: rgb(236, 233, 233);
+    width: 100%;
+  }
+
+/* bottom of copyright page*/
+.bottomCopyright {
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+    vertical-align: top;
+    position: relative;
+}
+
+
+
+
+
+
+
